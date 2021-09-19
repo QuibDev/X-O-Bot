@@ -3,21 +3,6 @@
 # rule 1. you can only fill in one box at a time.
 # rule 2. you can only fill empty boxes.
 
-# How to win
-
-# if you get three boxes in a row (vertical, horizontal, diagonal)
-# you win
-
-
-# now i have a grid now what?
-
-# when player removes something the place should be removed with an O
-# when bot removes something the place should be removed with an X
-
-# at 14:13,
-# the game works mostly, but the bots command won't update on grid
-# if the player commands are updated and vice versa
-
 
 from typing import Tuple
 
