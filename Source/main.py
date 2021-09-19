@@ -84,7 +84,6 @@ def main():
                         if playerMove in grid[columns] and playerMove != botMark and playerMove != playerMark:
                             grid[columns][grid[columns].index(
                                 playerMove)] = playerMark
-                            #print("Removed item at index {}".format(k))
                 except ValueError:
                     print("That move is unavailable! Please try again")
                     continue  # it should restart the loop not the game
@@ -95,7 +94,6 @@ def main():
                     if botMove in grid[columns]:
                         grid[columns][grid[columns].index(
                             botMove)] = botMark
-                        #print("Removed item at index {}".format(k))
 
             # Reset the turns -->
 
